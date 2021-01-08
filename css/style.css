@@ -149,8 +149,10 @@ img {
   border-radius: 5px;
   border-style: none;
   background-color: hsl(0, 0%, 98%);
-  color: #303030;
+  color: #4e4e4e;
   cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
 }
 
 .btn:hover {
