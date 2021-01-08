@@ -117,8 +117,36 @@ input::placeholder {
 }
 
 #buttons {
-  position: relative;
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 98%);
+  z-index: 100;
+}
+
+.btn {
+  padding: 10px;
+  height: 35px;
+  font-size: 100%;
+  border-radius: 5px;
+  border-style: none;
+  background-color: hsl(0, 0%, 98%);
+  color: #303030;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: hsl(220, 98%, 61%);
+  background-color: #e4e4e4;  
+  transition: 0.5s;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background:hsl(220, 86%, 65%);
+  border-radius: 6px;
 }
