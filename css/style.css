@@ -21,7 +21,7 @@ header h1 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 210%;
+  font-size: 2rem;
   letter-spacing: 5px;
   text-align: center;
   color: rgb(253, 244, 244);
@@ -50,7 +50,7 @@ header #funcionamento {
 input {
   height: 50px;
   width: 80%;
-  margin-top: 45px;
+  margin-top: 35px;
   border-radius: 5px;
   border-style: none;
   background-color: hsl(0, 0%, 98%);  
