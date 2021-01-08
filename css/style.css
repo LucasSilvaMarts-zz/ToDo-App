@@ -62,6 +62,11 @@ input::placeholder {
   padding-left: 30px;
 }
 
+img {
+  height: 35px;
+  width: 35px;
+}
+
 #list-section {
   position: relative;
   margin-left: auto;
@@ -107,6 +112,13 @@ input::placeholder {
   justify-content: center;
 }
 
+#criar-tarefa {
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+  border-style: none;
+}
+
 #criar-tarefa:hover {
   color: hsl(220, 98%, 61%);
   transition: 0.5s;
@@ -114,9 +126,8 @@ input::placeholder {
 }
 
 .btn-add {
-  width: 50px;
-  height: 50px;
-  margin-top: 10px;
+  height: 35px;
+  margin-top: 30px;
   border-style: none;
   background-color: hsl(0, 0%, 98%);
   cursor: pointer;
