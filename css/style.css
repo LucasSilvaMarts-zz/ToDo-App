@@ -7,7 +7,7 @@
 body {
   background-image: url(../img/bg-mobile-light.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 270px;
+  background-size: 100% 36%;
 }
 
 #main {
@@ -21,7 +21,7 @@ header h1 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 150%;
+  font-size: 210%;
   letter-spacing: 5px;
   text-align: center;
   color: rgb(253, 244, 244);
@@ -34,7 +34,7 @@ header #funcionamento {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 65%;
+  font-size: 75%;
   text-align: center;
   margin-top: -40px;
   padding-bottom: 20px;
