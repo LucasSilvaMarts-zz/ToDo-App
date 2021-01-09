@@ -146,7 +146,7 @@ img {
 .btn {
   padding: 10px;
   height: 35px;
-  font-size: 1rem;
+  font-size: 0.7rem;
   border-radius: 5px;
   border-style: none;
   background-color: hsl(0, 0%, 98%);
@@ -171,6 +171,30 @@ img {
   border-radius: 6px;
 }
 
+/* Laptop */
+
+@media screen and (min-width: 1024px) {
+  input {
+    width: 40%;
+  }
+
+  #list-section {
+    width: 40%;
+  }
+
+  header h1 {
+    font-size: 1.4em;
+  }
+
+  header #funcionamento {
+    font-size: 0.6em;
+  } 
+
+  .btn {
+    font-size: 0.8em;
+  }
+}
+
 /* Tablets */
 
 @media screen and (max-width: 768px) {
@@ -185,9 +209,11 @@ img {
   header h1 {
     font-size: 1.2em;
   }
+
+  .btn {
+    font-size: 0.7em;
+  }
 }
-
-
 
 /* Mobile */
 
@@ -209,6 +235,14 @@ img {
   header h1 {
     font-size: 1.1em;
   }
+
+  header #funcionamento {
+    font-size: 0.5em;
+  }
+
+  .btn {
+    font-size: 0.6em;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -228,6 +262,14 @@ img {
 
   header h1 {
     font-size: 1em;
+  }
+
+  header #funcionamento {
+    font-size: 0.5em;
+  }
+
+  .btn {
+    font-size: 0.6em;
   }
 }
 
