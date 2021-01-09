@@ -171,3 +171,44 @@ img {
   border-radius: 6px;
 }
 
+/* Mobile */
+
+@media screen and (max-width: 375px) {
+  body {
+    background-image: url(../img/bg-mobile-light.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+  }
+
+  input {
+    width: 85%;
+  }
+
+  #list-section {
+    width: 85%;
+  }
+
+  header h1 {
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    background-image: url(../img/bg-mobile-light.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  #list-section {
+    width: 80%;
+  }
+
+  header h1 {
+    font-size: 1.1em;
+  }
+}
