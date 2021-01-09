@@ -7,7 +7,7 @@
 body {
   background-image: url(../img/bg-mobile-light.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 36%;
+  background-size: 100% 30%;
 }
 
 #main {
@@ -21,11 +21,11 @@ header h1 {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 2rem;
+  font-size: 1.2rem;
   letter-spacing: 5px;
   text-align: center;
   color: rgb(253, 244, 244);
-  margin-top: 50px;
+  margin-top: 40px;
   padding-bottom: 50px;
   cursor: pointer;
 }
@@ -34,7 +34,7 @@ header #funcionamento {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 75%;
+  font-size: 0.6rem;
   text-align: center;
   margin-top: -40px;
   padding-bottom: 20px;
@@ -50,7 +50,6 @@ header #funcionamento {
 input {
   height: 50px;
   width: 80%;
-  margin-top: 35px;
   border-radius: 5px;
   border-style: none;
   background-color: hsl(0, 0%, 98%);  
@@ -67,7 +66,7 @@ input::placeholder {
 img {
   height: 50px;
   width: 50px;
-}
+} 
 
 #list-section {
   position: relative;
@@ -147,7 +146,7 @@ img {
 .btn {
   padding: 10px;
   height: 35px;
-  font-size: 100%;
+  font-size: 1rem;
   border-radius: 5px;
   border-style: none;
   background-color: hsl(0, 0%, 98%);
@@ -171,3 +170,5 @@ img {
   background:hsl(220, 86%, 65%);
   border-radius: 6px;
 }
+
+
