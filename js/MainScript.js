@@ -1,11 +1,12 @@
 
-//Adiciona tarefa 
+// Cria a tarefa
 
 function criarTarefa() {
 
   const input = document.querySelector('#texto-tarefa');
   const taskList = document.querySelector('#lista-tarefas');
 
+  // Adiciona tarefa 
   const btn = document.querySelector('#criar-tarefa')
 
   btn.addEventListener('click', function () {
@@ -60,7 +61,7 @@ function changeBG(event) {
 
 function taskCompleted(event) {
 
-  // propriedade contains verifica se algo contêm uma classe por exemplo
+  // propriedade contains verifica se algo contêm alguma coisa, como uma classe, por exemplo.
 
   if (event.target.classList.contains('completed')) {
 
@@ -77,15 +78,20 @@ function taskCompleted(event) {
 
 function removeSelectedTask() {
 
+  // Meu botão
   const btn = document.querySelector('#remover-selecionado')
 
+  // Adicionando um evento no botão
   btn.addEventListener('click', function () {
 
+    // Todos os meus elementos com a classe .bg-task
     const listItem = document.querySelectorAll('.bg-task')
 
+    // Percorrendo a lista 
     for (index = 0; index < listItem.length; index += 1) {
       let taskList = listItem[index];
 
+      // Removendo a li
       taskList.remove('li');
     }
   })
