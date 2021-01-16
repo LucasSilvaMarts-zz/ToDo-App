@@ -30,6 +30,16 @@ header h1 {
   cursor: pointer;
 }
 
+.btn-dark-mode {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 3rem;
+  left: 40rem;
+  font-size: 40%;
+  cursor: pointer;
+}
+
 header #funcionamento {
   font-family: 'Josefin Sans', sans-serif;
   text-transform: uppercase;
